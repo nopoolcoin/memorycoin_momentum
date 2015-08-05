@@ -3,8 +3,10 @@ from distutils.core import setup, Extension
 memorycoin_momentum_module = Extension('memorycoin_momentum',
                                libraries = ['ssl', 'crypto'],
                                sources = ['momentummodule.c',
-							              'groestl.c',
-							              'keccak.c',
+							'groestl.c',
+							'keccak.c',
+							'unint256.h',
+							'hashblock.h',              
                                           'momentum.c'],
                                include_dirs=['.'])
 
