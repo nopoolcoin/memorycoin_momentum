@@ -6,6 +6,7 @@
 #include <openssl/sha.h>
 #include <openssl/aes.h>
 #include <openssl/evp.h>
+#include "hashblock.h"
 
 #define PSUEDORANDOM_DATA_SIZE 30 //2^30 = 1GB
 #define PSUEDORANDOM_DATA_CHUNK_SIZE 6 //2^6 = 64 bytes
