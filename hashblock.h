@@ -6,7 +6,7 @@
 #include "sph_keccak.h"
 
 #ifndef QT_NO_DEBUG
-#include <string>
+#include <string.h>
 #endif
 
 #ifdef GLOBALDEFINED
